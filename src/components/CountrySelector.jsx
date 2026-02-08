@@ -56,12 +56,12 @@ export default function CountrySelector({ onLocationSelect }) {
     setSelectedState("");
     if (onLocationSelect) onLocationSelect(countryCode, "");
   };
+const handleStateChange = (e) => {
+  const stateCode = e.target.value;
+  setSelectedState(stateCode);
+  if (onLocationSelect) onLocationSelect(selectedCountry, stateCode, states);
+};
 
-  const handleStateChange = (e) => {
-    const stateCode = e.target.value;
-    setSelectedState(stateCode);
-    if (onLocationSelect) onLocationSelect(selectedCountry, stateCode);
-  };
 
   return (
      
