@@ -390,7 +390,7 @@ useEffect(() => {
         <Prayer
           title="صلاة الفجر"
           subheader="استفتح يومك بالصلاة"
-          mediaImage="../../public/assets/alfajr.jpg"
+          mediaImage="/assets/alfajr.jpg"
           avatarLetter="ف"
           rokaa={
             <>
@@ -418,7 +418,7 @@ useEffect(() => {
         <Prayer
           title={"صلاة الظهر"}
           subheader={"نصف اليوم بذكر الله"}
-          mediaImage="../../public/assets/aldohr.jpg"
+          mediaImage="/assets/aldohr.jpg"
           avatarLetter="ظ"
           rokaa={
             <>
@@ -444,7 +444,7 @@ useEffect(() => {
         <Prayer
           title={"صلاة العصر"}
           subheader={"لا تنساها وسط انشغالك"}
-          mediaImage={"../../public/assets/الرياض_أثناء_فترة_العصر.jfif"}
+          mediaImage={"/assets/الرياض_أثناء_فترة_العصر.jfif"}
           avatarLetter={"ع"}
           rokaa={
             <>
@@ -468,7 +468,7 @@ useEffect(() => {
         <Prayer
           title={"صلاة المغرب"}
           subheader={"لحظة شكر عند الغروب"}
-          mediaImage={"../../public/assets/almgrb.jpg"}
+          mediaImage={"/assets/almgrb.jpg"}
           avatarLetter={"م"}
           rokaa={
             <>
@@ -492,7 +492,7 @@ useEffect(() => {
         <Prayer
           title={"صلاة العشاء"}
           subheader={"طمأنينة قبل النوم"}
-          mediaImage={"../../public/assets/images.jfif"}
+          mediaImage={"/assets/images.jfif"}
           avatarLetter={"عش"}
           rokaa={
             <>
